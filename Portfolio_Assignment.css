@@ -1,0 +1,557 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Navbar - Section1 */
+nav {
+  background-image: url("https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  height: 750px;
+  width: auto;
+}
+
+.menu {
+  height: 200px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-fluid ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 20px;
+  padding: 20px;
+  list-style: none;
+  height: 10px;
+  position: fixed;
+  background-color: #efefef;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  padding-left: 25px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.home-text {
+  font-family: monospace;
+  font-size: 36px;
+  margin: 80px;
+  padding: 40px;
+  width: 50%;
+  display: flex;
+}
+
+.home-text img {
+  height: 150px;
+  margin: 20px 50px 10px 0px;
+  padding: 0px;
+
+  border-radius: 50%;
+}
+
+.home-text p {
+  margin: 32px 0px;
+}
+
+/* Bio - Section2 */
+#aboutme {
+  display: flex;
+  margin: 50px 40px;
+  padding: 30px;
+  font-weight: lighter;
+  background-size: 100%;
+}
+
+#aboutme_image {
+  padding: 20px;
+  margin: 20px;
+}
+
+#aboutme_image img {
+  height: 40rem;
+  width: 500px;
+  border-radius: 8px;
+}
+
+#bio {
+  padding: 20px;
+}
+
+.bio_header {
+  font-size: xx-large;
+  font-weight: lighter;
+  margin: 20px 0 6px 0;
+  font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bio p {
+  color: #686d76;
+  padding: 15px 0;
+  line-height: 30px;
+  width: 100%;
+}
+
+.skill {
+  background-color: #74959a;
+  color: white;
+  padding: 4px;
+  text-align: right;
+  font-size: 7px;
+  border-radius: 15px;
+  line-height: 0;
+}
+
+.html {
+  width: 80%;
+}
+
+.css3 {
+  width: 80%;
+}
+
+.js {
+  width: 60%;
+}
+
+.csharp {
+  width: 76%;
+}
+
+.dotnet {
+  width: 58%;
+}
+
+#workExperience,
+#education {
+  padding: 3rem 0 3rem 8rem;
+  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+}
+
+#interests {
+  padding: 1rem 0 3rem 3rem;
+}
+
+#contact {
+  background-color: #6998ab;
+  padding: 1rem 10rem 1rem 10rem;
+  display: flex;
+  word-spacing: 5px;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 40px;
+}
+
+#workExperience h1,
+#education h1,
+#interests h1 {
+  font-size: 35px;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+  width: 70%;
+  line-height: 30px;
+}
+
+.mb-4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.mb-5 p {
+  color: #686d76;
+}
+
+#interests > .mb-5 {
+  display: flex;
+  flex-direction: row;
+}
+
+#interests img {
+  width: 600px;
+  border-radius: 15%;
+}
+
+#interests p {
+  margin: 80px 80px 0px 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #686d76;
+  line-height: 40px;
+  font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 5px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .home-text {
+    margin: 10px;
+    padding: 10px 50px;
+    width: 100%;
+    display: flex;
+  }
+
+  .home-text img {
+    height: 120px;
+    margin: 20px 50px 10px 0px;
+    padding: 0px;
+    border-radius: 50%;
+  }
+
+  ul a {
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 12px;
+  }
+
+  #aboutme {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    background-size: 100%;
+    margin: 2px;
+    padding: 2px;
+  }
+
+  #aboutme_image img {
+    height: 250px;
+    width: 100%;
+    margin: 2px;
+    padding: 2px;
+  }
+
+  #workExperience h1,
+  #education h1,
+  #interests h1 {
+    font-size: 25px;
+  }
+
+  .mb-5 {
+    margin-bottom: 1rem !important;
+    line-height: 20px;
+  }
+
+  #interests {
+    padding: 5px;
+    margin: 5px;
+    height: 500px;
+    width: 100%;
+  }
+  #interests .mb-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #interests p {
+    margin: 30px 10px 0px 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #686d76;
+    line-height: 18px;
+    font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+  }
+  #interests .mb-4 img {
+    width: 100%;
+    background-color: #686d76;
+  }
+
+  #contact {
+    background-color: #6998ab;
+    padding: 10px;
+    display: flex;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 5px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .home-text {
+    margin: 10px;
+    padding: 10px 50px;
+    width: 100%;
+    display: flex;
+  }
+
+  .home-text img {
+    height: 120px;
+    margin: 20px 50px 10px 0px;
+    padding: 0px;
+    border-radius: 50%;
+  }
+
+  ul a {
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+    font-size: 12px;
+  }
+
+  #aboutme {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    background-size: 100%;
+    margin: 2px;
+    padding: 2px;
+  }
+
+  #aboutme_image img {
+    height: 250px;
+    width: 100%;
+    margin: 2px;
+    padding: 2px;
+  }
+
+  #workExperience h1,
+  #education h1,
+  #interests h1 {
+    font-size: 32px;
+  }
+
+  .mb-5 {
+    margin-bottom: 1rem !important;
+    line-height: 20px;
+  }
+
+  #interests {
+    padding: 5px;
+    margin: 5px;
+    height: 500px;
+    width: 100%;
+  }
+  #interests .mb-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #interests p {
+    margin: 30px 10px 0px 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #686d76;
+    line-height: 18px;
+    font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+  }
+  #interests .mb-4 img {
+    width: 100%;
+    background-color: #686d76;
+  }
+
+  #contact {
+    background-color: #6998ab;
+    padding: 10px;
+    display: flex;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  body {
+    font-size: 5px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .home-text {
+    margin: 10px;
+    padding: 10px 50px;
+    width: 100%;
+    display: flex;
+  }
+
+  .home-text img {
+    height: 120px;
+    margin: 20px 50px 10px 0px;
+    padding: 0px;
+    border-radius: 50%;
+  }
+
+  ul a {
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+    font-size: 12px;
+  }
+
+  #aboutme {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    background-size: 100%;
+    margin: 2px;
+    padding: 2px;
+  }
+
+  #aboutme_image img {
+    height: 250px;
+    width: 100%;
+    margin: 2px;
+    padding: 2px;
+  }
+
+  #workExperience h1,
+  #education h1,
+  #interests h1 {
+    font-size: 32px;
+  }
+
+  .mb-5 {
+    margin-bottom: 1rem !important;
+    line-height: 20px;
+  }
+
+  #interests {
+    padding: 5px;
+    margin: 5px;
+    height: 500px;
+    width: 100%;
+  }
+  #interests .mb-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #interests p {
+    margin: 30px 10px 0px 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #686d76;
+    line-height: 18px;
+    font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+  }
+  #interests .mb-4 img {
+    width: 100%;
+    background-color: #686d76;
+  }
+
+  .mb-5 {
+    margin-bottom: 1rem !important;
+    line-height: 20px;
+  }
+
+  #interests {
+    padding: 5px;
+    margin: 5px;
+    height: 500px;
+    width: 100%;
+  }
+  #interests .mb-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #interests p {
+    margin: 30px 10px 0px 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #686d76;
+    line-height: 18px;
+    font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+  }
+  #interests .mb-4 img {
+    width: 100%;
+    height: 300px;
+    background-color: #686d76;
+  }
+
+  #contact {
+    display: flex;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  #aboutme,
+  #experience,
+  #education,
+  #interests,
+  #contact {
+    font-size: 15px;
+  }
+
+  #contact {
+    position: relative;
+  }
+  #interests .mb-4 img {
+    width: 100%;
+    height: 150px;
+    background-color: #686d76;
+  }
+
+  .aboutme {
+    margin: 5px 0px;
+    padding: 2px;
+  }
+
+  nav {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 150px) {
+  #aboutme,
+  #experience,
+  #education,
+  #interests,
+  #contact {
+    font-size: 15px;
+  }
+  nav {
+    width: 100%;
+  }
+  #contact {
+    position: relative;
+  }
+  #interests .mb-4 img {
+    width: 100%;
+    height: 150px;
+    background-color: #686d76;
+  }
+
+  .aboutme {
+    margin: 5px 0px;
+    padding: 2px;
+  }
+}
